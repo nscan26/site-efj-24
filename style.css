@@ -1,0 +1,61 @@
+
+body {
+    background-color: #FEC89A;
+}
+
+.card-white {
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    padding: 16px;
+    margin: 16px auto;
+    border-radius: 8px;
+    box-shadow: 6px 7px 1px 1px black;
+}
+
+.button-blue {
+    background-color: black;
+    border: 1px solid black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.button-blue:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.img {
+    border-radius: 8px;
+}
+
+i {
+    font-size: 50px;
+    color: #FEC89A;
+}
+
+ul>li {
+    display: inline;
+}
+
+ul {
+    padding: 0;
+}
+
+.banner {
+    height: 80vh ;
+    background-image: url(chiens.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
